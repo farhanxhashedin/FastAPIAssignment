@@ -1,58 +1,6 @@
 🚗 Parking Management System A RESTful API backend built using FastAPI to manage parking slots, handle user bookings, and facilitate admin operations in a parking lot. The system uses JWT-based authentication, SQLAlchemy ORM, and supports role-based access for users and admins.
 
-📁 Project Structure
 
-Project Structure
-parking_management/
-├── app/
-│ ├── init.py
-│ ├── main.py
-│ ├── config.py
-│ ├── dependencies.py
-│ ├── database.py
-│ ├── models/
-│ │ ├── init.py
-│ │ ├── user.py
-│ │ ├── parking_slot.py
-│ │ ├── booking.py
-│ │ └── feedback.py
-│ ├── schemas/
-│ │ ├── init.py
-│ │ ├── user.py
-│ │ ├── parking_slot.py
-│ │ ├── booking.py
-│ │ ├── feedback.py
-│ │ └── token.py
-│ ├── crud/
-│ │ ├── init.py
-│ │ ├── user.py
-│ │ ├── parking_slot.py
-│ │ ├── booking.py
-│ │ └── feedback.py
-│ ├── api/
-│ │ ├── init.py
-│ │ ├── endpoints/
-│ │ │ ├── init.py
-│ │ │ ├── auth.py
-│ │ │ ├── users.py
-│ │ │ ├── parking_slots.py
-│ │ │ ├── bookings.py
-│ │ │ ├── feedback.py
-│ │ │ └── admin.py
-│ │ └── api.py
-│ └── core/
-│ ├── init.py
-│ ├── security.py
-│ └── utils.py
-└── tests/
-├── init.py
-├── conftest.py
-├── test_auth.py
-├── test_users.py
-├── test_parking_slots.py
-├── test_bookings.py
-├── test_feedback.py
-└── test_admin.py
 🚀 Features 🔐 Authentication & User Management JWT-based secure authentication.
 
 User registration and login.
